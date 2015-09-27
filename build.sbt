@@ -6,14 +6,14 @@ organization               := "org.scalajs"
 
 name                       := "scala-parser-combinators"
 
-version                    := "1.0.2"
+version                    := "1.0.3"
 
-scalaVersion               := "2.11.1"
+scalaVersion               := "2.11.7"
 
 testFrameworks += new TestFramework("utest.runner.Framework")
 
 libraryDependencies ++= Seq(
-  "com.lihaoyi" %%% "utest" % "0.2.5-RC1" % "test"
+  "com.lihaoyi" %%% "utest" % "0.3.1" % "test"
 )
 
 homepage := Some(url("http://www.scala-js.org/"))
